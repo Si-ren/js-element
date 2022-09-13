@@ -16,7 +16,7 @@ function addPromise(a: number, b: number): Promise<number> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(a + b)
-        }, 2000)
+        }, 200)
     })
 }
 
